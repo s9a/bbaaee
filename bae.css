@@ -1,0 +1,26 @@
+:any-link {
+  color: inherit;
+  background-color: transparent;
+}
+
+:focus {
+  outline: thick dotted;
+}
+
+::selection {
+  color: #510;
+  background-color: gold;
+}
+
+.bae,
+:root {
+  color: #415;
+  background-color: #bae;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #bae;
+    background-color: #415;
+  }
+}
